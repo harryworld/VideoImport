@@ -1,0 +1,25 @@
+{
+  "name": "HNVideoImport",
+  "version": "0.1.0",
+  "summary": "A short description of HNVideoImport.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HNVideoImport",
+  "license": "MIT",
+  "authors": {
+    "sohail": "sohail0059@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HNVideoImport.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HNVideoImport": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

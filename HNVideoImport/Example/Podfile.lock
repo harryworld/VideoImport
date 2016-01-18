@@ -1,0 +1,14 @@
+PODS:
+  - HNVideoImport (0.1.0)
+
+DEPENDENCIES:
+  - HNVideoImport (from `../`)
+
+EXTERNAL SOURCES:
+  HNVideoImport:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HNVideoImport: 694a66a2368c64ec7fd0a530bdfcf9f2ded1b57e
+
+COCOAPODS: 0.39.0
