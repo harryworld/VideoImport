@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HNVideoImport: 694a66a2368c64ec7fd0a530bdfcf9f2ded1b57e
+  HNVideoImport: e696b9f3817307aad1ae7ef59073d9e20e49cb7d
 
 COCOAPODS: 0.39.0

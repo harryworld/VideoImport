@@ -7,85 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AFFC1D12564DE1A186BCA19DC69054E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		38D9AFE61B435B8AF43969D979C8F48F /* Pods-HNVideoImport_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24093462148A186C5B6B3EB296A9B722 /* Pods-HNVideoImport_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60AF5B4F9110B29B1BEE2867342971A7 /* HNVideoImport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56E41B61E938282BB7F84C566E1CF6F /* HNVideoImport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61FFF85957BA17FB33F142187E6547AD /* HNVideoImport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5288454646EA9E8A961ECA7F3F8962 /* HNVideoImport-dummy.m */; };
-		64FE728FC44ABFF0BE84C40241C17633 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6FD29AD6FAF1E42DF5156F668C7505 /* ReplaceMe.swift */; };
-		7C1977B4C5E7C8D5CE2E55D6922CA388 /* Pods-HNVideoImport_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C862AE6ED4ED655D73DB3F4D256984 /* Pods-HNVideoImport_Tests-dummy.m */; };
-		7F9A635ED55765135C0C54E162B2578F /* Pods-HNVideoImport_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D96E40C370CA207B902D6D9505D72893 /* Pods-HNVideoImport_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD04E8312CE844DFCFD1E4F58D0B4366 /* Pods-HNVideoImport_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A86137318D183CF3FA42766EB5801D76 /* Pods-HNVideoImport_Example-dummy.m */; };
+		197D11BB8624E29A1157800C03C35FF3 /* HNVideoImport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56E41B61E938282BB7F84C566E1CF6F /* HNVideoImport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2368B4191C821C7548A4FF49727252D4 /* HNVideoImport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5288454646EA9E8A961ECA7F3F8962 /* HNVideoImport-dummy.m */; };
+		2A4E3BC7481DD83F7431296B91F3C22F /* HNVideoImportViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 07F535880237C52BEA6F0796EEB53CA8 /* HNVideoImportViewController.xib */; };
+		5DA812EC7AA69E7E30CEA05F4AB09EDE /* HNVideoImport.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDE3229FF04AD3EB6D9209F00BCDCC /* HNVideoImport.bundle */; };
+		67DE9BF4EF462F10569EC8ECF0B809A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7F9A635ED55765135C0C54E162B2578F /* Pods-HNVideoImport_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC385C7F9D44BD003AAB5D023653BF9 /* Pods-HNVideoImport_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A369B554514B6E5F94430956F37368EB /* HNVideoImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9018C1A583D223EC5F2B3B79382F51 /* HNVideoImportViewController.swift */; };
+		AD04E8312CE844DFCFD1E4F58D0B4366 /* Pods-HNVideoImport_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F429C717376B1BEC0B6D14ADDB318C52 /* Pods-HNVideoImport_Example-dummy.m */; };
+		E4F8960FB6DA643DEF3EDE6C8AE3667B /* HNVideoImport-HNVideoImport-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1640975DAB33E07DEAC0C911E69D586C /* HNVideoImport-HNVideoImport-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F468FCE89D651DA588B1AB7A35E115AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		FA8F56BB861B908E6818EAF7653F9FEB /* HNVideoImport.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E86B9F02060B6E0BA76B5E311FAA63EF /* HNVideoImport.bundle */; };
-		FF66624A3979F9666BFED8E07D93DAF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F883E93A17F3F0A5F375619B326CA19E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B388EDCAC12EF64A9EFECD853279E10E /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D99A50B9BC17D54C01023A2586EA1B6 /* PBXContainerItemProxy */ = {
+		BCC9355A0219AD25F65CC359C0CBA785 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D2E1074E0F8DE01D713A5310DAE725E;
-			remoteInfo = HNVideoImport;
-		};
-		A3EE4A0974B237FAE635DB42B441E43F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC9202C1A74FE5F21656CB2AAC0AFEA1;
+			remoteGlobalIDString = 7C26DD9FF8A19D82FF52F384E5A042C8;
 			remoteInfo = "HNVideoImport-HNVideoImport";
 		};
 		D8176570189CBDEB380BFB5002389001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D2E1074E0F8DE01D713A5310DAE725E;
+			remoteGlobalIDString = 7CA9A5017027B689A1255D85E97F08CB;
 			remoteInfo = HNVideoImport;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E3CE4060C8E4BA08CD6AE828A5A397 /* Pods-HNVideoImport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HNVideoImport_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		090D02E93717E228871C21AE77F1AE00 /* Pods-HNVideoImport_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HNVideoImport_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0F7AF6E52BAB3A2D4EFEA7C5C634F6CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F535880237C52BEA6F0796EEB53CA8 /* HNVideoImportViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HNVideoImportViewController.xib; sourceTree = "<group>"; };
+		12E7284AE3746BEAEADAB7A365A07562 /* Pods_HNVideoImport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNVideoImport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1358AC8F875CA2B8428D12FA0DD7D833 /* HNVideoImport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HNVideoImport-prefix.pch"; sourceTree = "<group>"; };
-		24093462148A186C5B6B3EB296A9B722 /* Pods-HNVideoImport_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HNVideoImport_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1640975DAB33E07DEAC0C911E69D586C /* HNVideoImport-HNVideoImport-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HNVideoImport-HNVideoImport-Bridging-Header.h"; sourceTree = "<group>"; };
+		1CFAF25948864399B505AD258C8D691B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22220F459B8132584850D2AB94DC0D28 /* HNVideoImport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HNVideoImport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HNVideoImport.xcconfig; sourceTree = "<group>"; };
-		2F0CF1BDA56B39F021345F87BB21A572 /* Pods-HNVideoImport_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HNVideoImport_Example-resources.sh"; sourceTree = "<group>"; };
+		34DE8A8B7784D4C59B0BB47EB7FD4D2E /* Pods-HNVideoImport_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HNVideoImport_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B82F4AFA6FA88FA90E664C2A952AC7D /* HNVideoImport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HNVideoImport.modulemap; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		56C52AC808F0BF58EACB359F542CBD73 /* Pods-HNVideoImport_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HNVideoImport_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70D4C72EF559840129195749C4E861E5 /* Pods-HNVideoImport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HNVideoImport_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7BE1AFDA2EC34DA72856E47B8F512E21 /* Pods-HNVideoImport_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HNVideoImport_Example.modulemap"; sourceTree = "<group>"; };
-		7D6FD29AD6FAF1E42DF5156F668C7505 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		8B426D765F97FD59B0464ADE6A7ABAD2 /* Pods-HNVideoImport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HNVideoImport_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8C8B1F3D54C9FABFE77817A17D66775F /* Pods_HNVideoImport_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNVideoImport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D11CE7D3DAD9CB705F231AACD9044FE /* Pods-HNVideoImport_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HNVideoImport_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		95CC281CA28C24609870F72DDB9AEA9A /* Pods_HNVideoImport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNVideoImport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC385C7F9D44BD003AAB5D023653BF9 /* Pods-HNVideoImport_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HNVideoImport_Example-umbrella.h"; sourceTree = "<group>"; };
+		723353D9EE5C61BE44F6BB766038DBF6 /* Pods-HNVideoImport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HNVideoImport_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		78A326036D427FCD039D5710252A3154 /* Pods-HNVideoImport_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HNVideoImport_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EEDE3229FF04AD3EB6D9209F00BCDCC /* HNVideoImport.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNVideoImport.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A067D1A9CF92849C6EB5654A31D62642 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A86137318D183CF3FA42766EB5801D76 /* Pods-HNVideoImport_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HNVideoImport_Example-dummy.m"; sourceTree = "<group>"; };
-		B992AAD14BB6F79CE74961F937CDC19C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB32F5439B4B3F21DA0C9B2B18324173 /* Pods-HNVideoImport_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HNVideoImport_Example-resources.sh"; sourceTree = "<group>"; };
+		B388EDCAC12EF64A9EFECD853279E10E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		B3BDA1F2903F2D6D0F7943CE3B2DB28D /* Pods-HNVideoImport_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HNVideoImport_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC17379DBB8E75F6489194B20258CCD0 /* Pods-HNVideoImport_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HNVideoImport_Tests-resources.sh"; sourceTree = "<group>"; };
-		C5C862AE6ED4ED655D73DB3F4D256984 /* Pods-HNVideoImport_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HNVideoImport_Tests-dummy.m"; sourceTree = "<group>"; };
-		C6F19487247E7D243DAE6D52E3066133 /* Pods-HNVideoImport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HNVideoImport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D56E41B61E938282BB7F84C566E1CF6F /* HNVideoImport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HNVideoImport-umbrella.h"; sourceTree = "<group>"; };
-		D96E40C370CA207B902D6D9505D72893 /* Pods-HNVideoImport_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HNVideoImport_Example-umbrella.h"; sourceTree = "<group>"; };
-		DCD4D007ABF8DDA7EA75BE803A697170 /* Pods-HNVideoImport_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HNVideoImport_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF5288454646EA9E8A961ECA7F3F8962 /* HNVideoImport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HNVideoImport-dummy.m"; sourceTree = "<group>"; };
-		E03799D733302D0B7B3A936D847C469B /* HNVideoImport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HNVideoImport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1629356EFD4B08477B58849813B8F12 /* Pods-HNVideoImport_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HNVideoImport_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E86B9F02060B6E0BA76B5E311FAA63EF /* HNVideoImport.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNVideoImport.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA93565B6998C4E2CC831F8A1E876D65 /* Pods-HNVideoImport_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HNVideoImport_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F8D40493122B88F84A0A17049E468256 /* Pods-HNVideoImport_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HNVideoImport_Tests.modulemap"; sourceTree = "<group>"; };
+		DF9018C1A583D223EC5F2B3B79382F51 /* HNVideoImportViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HNVideoImportViewController.swift; sourceTree = "<group>"; };
+		ED7EF7D2719FAB31554C26A853F287C5 /* Pods-HNVideoImport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HNVideoImport_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F104493F5D4E8136C1889E4700EED10B /* Pods-HNVideoImport_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HNVideoImport_Example.modulemap"; sourceTree = "<group>"; };
+		F429C717376B1BEC0B6D14ADDB318C52 /* Pods-HNVideoImport_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HNVideoImport_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5114A51C1B23CA1644F4D3A41AEAC9FF /* Frameworks */ = {
+		02D96241B8CB9A07D731089C6E033A43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AFFC1D12564DE1A186BCA19DC69054E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,73 +81,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75F82DD36F613F99D3D05C8A15815332 /* Frameworks */ = {
+		593DB222CF945DEB705E8AB3DD2EED82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF66624A3979F9666BFED8E07D93DAF7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B61B41789B4AD9B59AAF9333DE2447CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				67DE9BF4EF462F10569EC8ECF0B809A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0977BF00CE0A355F5271ED69D7450C7A /* Products */ = {
+		050C96BDA7111D0C8405F0A6EA092085 /* Pods-HNVideoImport_Example */ = {
 			isa = PBXGroup;
 			children = (
-				E86B9F02060B6E0BA76B5E311FAA63EF /* HNVideoImport.bundle */,
-				E03799D733302D0B7B3A936D847C469B /* HNVideoImport.framework */,
-				95CC281CA28C24609870F72DDB9AEA9A /* Pods_HNVideoImport_Example.framework */,
-				8C8B1F3D54C9FABFE77817A17D66775F /* Pods_HNVideoImport_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		42C96A8FCEFB00D5909E5A6A6B1F0D7F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7D6FD29AD6FAF1E42DF5156F668C7505 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		4335DC9CFD3503F36417488FD8F74582 /* Pods-HNVideoImport_Example */ = {
-			isa = PBXGroup;
-			children = (
-				0F7AF6E52BAB3A2D4EFEA7C5C634F6CA /* Info.plist */,
-				7BE1AFDA2EC34DA72856E47B8F512E21 /* Pods-HNVideoImport_Example.modulemap */,
-				56C52AC808F0BF58EACB359F542CBD73 /* Pods-HNVideoImport_Example-acknowledgements.markdown */,
-				EA93565B6998C4E2CC831F8A1E876D65 /* Pods-HNVideoImport_Example-acknowledgements.plist */,
-				A86137318D183CF3FA42766EB5801D76 /* Pods-HNVideoImport_Example-dummy.m */,
-				090D02E93717E228871C21AE77F1AE00 /* Pods-HNVideoImport_Example-frameworks.sh */,
-				2F0CF1BDA56B39F021345F87BB21A572 /* Pods-HNVideoImport_Example-resources.sh */,
-				D96E40C370CA207B902D6D9505D72893 /* Pods-HNVideoImport_Example-umbrella.h */,
-				70D4C72EF559840129195749C4E861E5 /* Pods-HNVideoImport_Example.debug.xcconfig */,
-				8B426D765F97FD59B0464ADE6A7ABAD2 /* Pods-HNVideoImport_Example.release.xcconfig */,
+				1CFAF25948864399B505AD258C8D691B /* Info.plist */,
+				F104493F5D4E8136C1889E4700EED10B /* Pods-HNVideoImport_Example.modulemap */,
+				78A326036D427FCD039D5710252A3154 /* Pods-HNVideoImport_Example-acknowledgements.markdown */,
+				34DE8A8B7784D4C59B0BB47EB7FD4D2E /* Pods-HNVideoImport_Example-acknowledgements.plist */,
+				F429C717376B1BEC0B6D14ADDB318C52 /* Pods-HNVideoImport_Example-dummy.m */,
+				B3BDA1F2903F2D6D0F7943CE3B2DB28D /* Pods-HNVideoImport_Example-frameworks.sh */,
+				AB32F5439B4B3F21DA0C9B2B18324173 /* Pods-HNVideoImport_Example-resources.sh */,
+				5DC385C7F9D44BD003AAB5D023653BF9 /* Pods-HNVideoImport_Example-umbrella.h */,
+				723353D9EE5C61BE44F6BB766038DBF6 /* Pods-HNVideoImport_Example.debug.xcconfig */,
+				ED7EF7D2719FAB31554C26A853F287C5 /* Pods-HNVideoImport_Example.release.xcconfig */,
 			);
 			name = "Pods-HNVideoImport_Example";
 			path = "Target Support Files/Pods-HNVideoImport_Example";
 			sourceTree = "<group>";
 		};
-		5296ED904659FB2BEDB37694FF39782E /* Pod */ = {
+		284551C4D19EABEF02B5D28210550034 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				42C96A8FCEFB00D5909E5A6A6B1F0D7F /* Classes */,
+				1640975DAB33E07DEAC0C911E69D586C /* HNVideoImport-HNVideoImport-Bridging-Header.h */,
+				DF9018C1A583D223EC5F2B3B79382F51 /* HNVideoImportViewController.swift */,
+				07F535880237C52BEA6F0796EEB53CA8 /* HNVideoImportViewController.xib */,
+				B388EDCAC12EF64A9EFECD853279E10E /* ReplaceMe.swift */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		53067CB8F5A153DC5DCAD4F713395179 /* HNVideoImport */ = {
 			isa = PBXGroup;
 			children = (
-				5296ED904659FB2BEDB37694FF39782E /* Pod */,
+				82B773843A7176D8DB9EEDA6AE9C05F7 /* Pod */,
 				9055A0F791ABDBE4ACF1129FA3568465 /* Support Files */,
 			);
 			name = HNVideoImport;
@@ -178,24 +139,31 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		798B6339893CB7B0294913F6E4EEED69 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4335DC9CFD3503F36417488FD8F74582 /* Pods-HNVideoImport_Example */,
-				CF6CD46B196D1AE274F34719FF9E35B4 /* Pods-HNVideoImport_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				5394AA17E5B4B9E8CBCA3E119BD4084B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0977BF00CE0A355F5271ED69D7450C7A /* Products */,
-				798B6339893CB7B0294913F6E4EEED69 /* Targets Support Files */,
+				9A0474D6C0E751479C7DA3F3C5E407E5 /* Products */,
+				81A9858BC336A6E908958811C84277E5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		81A9858BC336A6E908958811C84277E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				050C96BDA7111D0C8405F0A6EA092085 /* Pods-HNVideoImport_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		82B773843A7176D8DB9EEDA6AE9C05F7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				284551C4D19EABEF02B5D28210550034 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		9055A0F791ABDBE4ACF1129FA3568465 /* Support Files */ = {
@@ -210,6 +178,16 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HNVideoImport";
+			sourceTree = "<group>";
+		};
+		9A0474D6C0E751479C7DA3F3C5E407E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDE3229FF04AD3EB6D9209F00BCDCC /* HNVideoImport.bundle */,
+				22220F459B8132584850D2AB94DC0D28 /* HNVideoImport.framework */,
+				12E7284AE3746BEAEADAB7A365A07562 /* Pods_HNVideoImport_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -228,32 +206,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CF6CD46B196D1AE274F34719FF9E35B4 /* Pods-HNVideoImport_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B992AAD14BB6F79CE74961F937CDC19C /* Info.plist */,
-				F8D40493122B88F84A0A17049E468256 /* Pods-HNVideoImport_Tests.modulemap */,
-				DCD4D007ABF8DDA7EA75BE803A697170 /* Pods-HNVideoImport_Tests-acknowledgements.markdown */,
-				E1629356EFD4B08477B58849813B8F12 /* Pods-HNVideoImport_Tests-acknowledgements.plist */,
-				C5C862AE6ED4ED655D73DB3F4D256984 /* Pods-HNVideoImport_Tests-dummy.m */,
-				8D11CE7D3DAD9CB705F231AACD9044FE /* Pods-HNVideoImport_Tests-frameworks.sh */,
-				BC17379DBB8E75F6489194B20258CCD0 /* Pods-HNVideoImport_Tests-resources.sh */,
-				24093462148A186C5B6B3EB296A9B722 /* Pods-HNVideoImport_Tests-umbrella.h */,
-				C6F19487247E7D243DAE6D52E3066133 /* Pods-HNVideoImport_Tests.debug.xcconfig */,
-				06E3CE4060C8E4BA08CD6AE828A5A397 /* Pods-HNVideoImport_Tests.release.xcconfig */,
-			);
-			name = "Pods-HNVideoImport_Tests";
-			path = "Target Support Files/Pods-HNVideoImport_Tests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		74BE6A0326FC663D943FC2AC0B22C56F /* Headers */ = {
+		7B256D2B5277290B3968B72664F01A2C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60AF5B4F9110B29B1BEE2867342971A7 /* HNVideoImport-umbrella.h in Headers */,
+				E4F8960FB6DA643DEF3EDE6C8AE3667B /* HNVideoImport-HNVideoImport-Bridging-Header.h in Headers */,
+				197D11BB8624E29A1157800C03C35FF3 /* HNVideoImport-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +223,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F9A635ED55765135C0C54E162B2578F /* Pods-HNVideoImport_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F95E71871192F3BC05591EAB442F722E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38D9AFE61B435B8AF43969D979C8F48F /* Pods-HNVideoImport_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,35 +244,16 @@
 			);
 			name = "Pods-HNVideoImport_Example";
 			productName = "Pods-HNVideoImport_Example";
-			productReference = 95CC281CA28C24609870F72DDB9AEA9A /* Pods_HNVideoImport_Example.framework */;
+			productReference = 12E7284AE3746BEAEADAB7A365A07562 /* Pods_HNVideoImport_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7D2E1074E0F8DE01D713A5310DAE725E /* HNVideoImport */ = {
+		7C26DD9FF8A19D82FF52F384E5A042C8 /* HNVideoImport-HNVideoImport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 934DF777BEEB5E6DDA23B1C3BB262B32 /* Build configuration list for PBXNativeTarget "HNVideoImport" */;
+			buildConfigurationList = 64C2E9FFB0C07412B881304F0C707ED2 /* Build configuration list for PBXNativeTarget "HNVideoImport-HNVideoImport" */;
 			buildPhases = (
-				D722D017959E32A1D42986523083C0A4 /* Sources */,
-				75F82DD36F613F99D3D05C8A15815332 /* Frameworks */,
-				8C2B65EC3FC6611E388A959FDDF28FBA /* Resources */,
-				74BE6A0326FC663D943FC2AC0B22C56F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2A2B5DC02F9FA83F7F0629C243CDB49 /* PBXTargetDependency */,
-			);
-			name = HNVideoImport;
-			productName = HNVideoImport;
-			productReference = E03799D733302D0B7B3A936D847C469B /* HNVideoImport.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DC9202C1A74FE5F21656CB2AAC0AFEA1 /* HNVideoImport-HNVideoImport */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD5BE9D0B64BB8C4A525CA5652DC7BD3 /* Build configuration list for PBXNativeTarget "HNVideoImport-HNVideoImport" */;
-			buildPhases = (
-				358FF59473588F9406E04DE0B0E0DE6C /* Sources */,
-				B61B41789B4AD9B59AAF9333DE2447CD /* Frameworks */,
-				9994D75ED12EAF6DD597554E6CAB269E /* Resources */,
+				D380752A615F26497954FEF41E7A0391 /* Sources */,
+				02D96241B8CB9A07D731089C6E033A43 /* Frameworks */,
+				8291DFC00CC4E7889CAF60ABDE5F63D7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -327,25 +261,26 @@
 			);
 			name = "HNVideoImport-HNVideoImport";
 			productName = "HNVideoImport-HNVideoImport";
-			productReference = E86B9F02060B6E0BA76B5E311FAA63EF /* HNVideoImport.bundle */;
+			productReference = 8EEDE3229FF04AD3EB6D9209F00BCDCC /* HNVideoImport.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		FFEC304BEB51FDF5FA7A855CA48593E3 /* Pods-HNVideoImport_Tests */ = {
+		7CA9A5017027B689A1255D85E97F08CB /* HNVideoImport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF7C0C57B8E9A632D2CFDB561A9257DA /* Build configuration list for PBXNativeTarget "Pods-HNVideoImport_Tests" */;
+			buildConfigurationList = 540128524EB91D2FE4151B9FF6EB7121 /* Build configuration list for PBXNativeTarget "HNVideoImport" */;
 			buildPhases = (
-				C065D3C7293C62706AEE397182B4C8E6 /* Sources */,
-				5114A51C1B23CA1644F4D3A41AEAC9FF /* Frameworks */,
-				F95E71871192F3BC05591EAB442F722E /* Headers */,
+				09CFA75AACCF89D0A8E2DBCACD09DD79 /* Sources */,
+				593DB222CF945DEB705E8AB3DD2EED82 /* Frameworks */,
+				5B3B48F21A563E6E303B91F4530E8114 /* Resources */,
+				7B256D2B5277290B3968B72664F01A2C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				788D680E7F727786E439CE6D8DF5694F /* PBXTargetDependency */,
+				3DE2B1411E69C1D541C8F0A04425F8EE /* PBXTargetDependency */,
 			);
-			name = "Pods-HNVideoImport_Tests";
-			productName = "Pods-HNVideoImport_Tests";
-			productReference = 8C8B1F3D54C9FABFE77817A17D66775F /* Pods_HNVideoImport_Tests.framework */;
+			name = HNVideoImport;
+			productName = HNVideoImport;
+			productReference = 22220F459B8132584850D2AB94DC0D28 /* HNVideoImport.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,28 +300,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0977BF00CE0A355F5271ED69D7450C7A /* Products */;
+			productRefGroup = 9A0474D6C0E751479C7DA3F3C5E407E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D2E1074E0F8DE01D713A5310DAE725E /* HNVideoImport */,
-				DC9202C1A74FE5F21656CB2AAC0AFEA1 /* HNVideoImport-HNVideoImport */,
+				7CA9A5017027B689A1255D85E97F08CB /* HNVideoImport */,
+				7C26DD9FF8A19D82FF52F384E5A042C8 /* HNVideoImport-HNVideoImport */,
 				6085CC8EC788028FD95477922D8C9935 /* Pods-HNVideoImport_Example */,
-				FFEC304BEB51FDF5FA7A855CA48593E3 /* Pods-HNVideoImport_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8C2B65EC3FC6611E388A959FDDF28FBA /* Resources */ = {
+		5B3B48F21A563E6E303B91F4530E8114 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA8F56BB861B908E6818EAF7653F9FEB /* HNVideoImport.bundle in Resources */,
+				5DA812EC7AA69E7E30CEA05F4AB09EDE /* HNVideoImport.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9994D75ED12EAF6DD597554E6CAB269E /* Resources */ = {
+		8291DFC00CC4E7889CAF60ABDE5F63D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,10 +330,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		358FF59473588F9406E04DE0B0E0DE6C /* Sources */ = {
+		09CFA75AACCF89D0A8E2DBCACD09DD79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2368B4191C821C7548A4FF49727252D4 /* HNVideoImport-dummy.m in Sources */,
+				A369B554514B6E5F94430956F37368EB /* HNVideoImportViewController.swift in Sources */,
+				2A4E3BC7481DD83F7431296B91F3C22F /* HNVideoImportViewController.xib in Sources */,
+				F883E93A17F3F0A5F375619B326CA19E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,20 +349,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C065D3C7293C62706AEE397182B4C8E6 /* Sources */ = {
+		D380752A615F26497954FEF41E7A0391 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C1977B4C5E7C8D5CE2E55D6922CA388 /* Pods-HNVideoImport_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D722D017959E32A1D42986523083C0A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61FFF85957BA17FB33F142187E6547AD /* HNVideoImport-dummy.m in Sources */,
-				64FE728FC44ABFF0BE84C40241C17633 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,54 +362,18 @@
 		03C247AF8C80853C0CACE3718C35D088 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HNVideoImport;
-			target = 7D2E1074E0F8DE01D713A5310DAE725E /* HNVideoImport */;
+			target = 7CA9A5017027B689A1255D85E97F08CB /* HNVideoImport */;
 			targetProxy = D8176570189CBDEB380BFB5002389001 /* PBXContainerItemProxy */;
 		};
-		788D680E7F727786E439CE6D8DF5694F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HNVideoImport;
-			target = 7D2E1074E0F8DE01D713A5310DAE725E /* HNVideoImport */;
-			targetProxy = 5D99A50B9BC17D54C01023A2586EA1B6 /* PBXContainerItemProxy */;
-		};
-		D2A2B5DC02F9FA83F7F0629C243CDB49 /* PBXTargetDependency */ = {
+		3DE2B1411E69C1D541C8F0A04425F8EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HNVideoImport-HNVideoImport";
-			target = DC9202C1A74FE5F21656CB2AAC0AFEA1 /* HNVideoImport-HNVideoImport */;
-			targetProxy = A3EE4A0974B237FAE635DB42B441E43F /* PBXContainerItemProxy */;
+			target = 7C26DD9FF8A19D82FF52F384E5A042C8 /* HNVideoImport-HNVideoImport */;
+			targetProxy = BCC9355A0219AD25F65CC359C0CBA785 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EA302C7C782E157204A3B811C240C88 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06E3CE4060C8E4BA08CD6AE828A5A397 /* Pods-HNVideoImport_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HNVideoImport_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HNVideoImport_Tests/Pods-HNVideoImport_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_HNVideoImport_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,49 +407,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		1B1CE9EDB0A9C04016E297F70663492B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6F19487247E7D243DAE6D52E3066133 /* Pods-HNVideoImport_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HNVideoImport_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HNVideoImport_Tests/Pods-HNVideoImport_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_HNVideoImport_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3774501D2987D28D0E010FDE26D4E140 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HNVideoImport;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -598,9 +447,61 @@
 			};
 			name = Debug;
 		};
+		56EAD4703EFB10293F77E1D175793138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HNVideoImport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		57A6D3833B8F494E59026547BD333541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HNVideoImport/HNVideoImport-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HNVideoImport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HNVideoImport/HNVideoImport.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HNVideoImport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8887584231CE5709D751C798A76D6EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HNVideoImport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		B2EA58AAF4FAF3BBA0AA4845AAA7B600 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70D4C72EF559840129195749C4E861E5 /* Pods-HNVideoImport_Example.debug.xcconfig */;
+			baseConfigurationReference = 723353D9EE5C61BE44F6BB766038DBF6 /* Pods-HNVideoImport_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -629,35 +530,7 @@
 			};
 			name = Debug;
 		};
-		CB23ED94AC1D332359B780C02D844CF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HNVideoImport/HNVideoImport-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HNVideoImport/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HNVideoImport/HNVideoImport.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HNVideoImport;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D4E3274FDD926CC093FF176D83C9FEAB /* Release */ = {
+		CA74656208A2A47E37DD1AC09676A2D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */;
 			buildSettings = {
@@ -684,21 +557,9 @@
 			};
 			name = Release;
 		};
-		F9E342D2341FEC6CAAF595B71A1DBF1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2870E2C21F9CB4FED3681DEACB9DFD21 /* HNVideoImport.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HNVideoImport;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		FAC87E48024C87FAB27CC2D0ECF3DEEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B426D765F97FD59B0464ADE6A7ABAD2 /* Pods-HNVideoImport_Example.release.xcconfig */;
+			baseConfigurationReference = ED7EF7D2719FAB31554C26A853F287C5 /* Pods-HNVideoImport_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -738,38 +599,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		540128524EB91D2FE4151B9FF6EB7121 /* Build configuration list for PBXNativeTarget "HNVideoImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A6D3833B8F494E59026547BD333541 /* Debug */,
+				CA74656208A2A47E37DD1AC09676A2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C2E9FFB0C07412B881304F0C707ED2 /* Build configuration list for PBXNativeTarget "HNVideoImport-HNVideoImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8887584231CE5709D751C798A76D6EAC /* Debug */,
+				56EAD4703EFB10293F77E1D175793138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7DAC37FE776713B04B7BF653360791BA /* Build configuration list for PBXNativeTarget "Pods-HNVideoImport_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2EA58AAF4FAF3BBA0AA4845AAA7B600 /* Debug */,
 				FAC87E48024C87FAB27CC2D0ECF3DEEA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		934DF777BEEB5E6DDA23B1C3BB262B32 /* Build configuration list for PBXNativeTarget "HNVideoImport" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB23ED94AC1D332359B780C02D844CF3 /* Debug */,
-				D4E3274FDD926CC093FF176D83C9FEAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF7C0C57B8E9A632D2CFDB561A9257DA /* Build configuration list for PBXNativeTarget "Pods-HNVideoImport_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1B1CE9EDB0A9C04016E297F70663492B /* Debug */,
-				0EA302C7C782E157204A3B811C240C88 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD5BE9D0B64BB8C4A525CA5652DC7BD3 /* Build configuration list for PBXNativeTarget "HNVideoImport-HNVideoImport" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3774501D2987D28D0E010FDE26D4E140 /* Debug */,
-				F9E342D2341FEC6CAAF595B71A1DBF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

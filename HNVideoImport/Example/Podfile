@@ -5,8 +5,4 @@ target 'HNVideoImport_Example', :exclusive => true do
   pod "HNVideoImport", :path => "../"
 end
 
-target 'HNVideoImport_Tests', :exclusive => true do
-  pod "HNVideoImport", :path => "../"
 
-  
-end
