@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '43A82083CD55AB8B9A77C28D'
+               BlueprintIdentifier = '4EB7403D34EFBF9F9DF40884'
                BlueprintName = 'HNVideoImport'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HNVideoImport.framework'>
